@@ -7,4 +7,42 @@ body{
     box-sizing: border-box;
     font-size: 16px;
     background-color: hsl(47, 88%, 63%);
+    font-family: "figtree";
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.card{
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 16px;
+    border: black solid;
+}
+.avatar{
+    display: flex;
+    
+}
+.profile{
+    height: 30px;
+}
+.highlight{
+    background-color:hsl(47, 88%, 63%); 
+    max-width: 65px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 13px;
+    font-weight: 800;
+}
+.primary-text{
+    margin-top: 10px;
+    color:  hsl(0, 0%, 42%);
+}
+.dark-grey{
+    color:  hsl(0, 0%, 7%);
+}
+h2{
+    margin-top: 10px;
 }
